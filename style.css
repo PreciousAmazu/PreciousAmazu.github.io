@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body{
+    font-family:  sans-serif;
+    background-color: azure;
+}
 .nav-container{
     display: flex;
     justify-content: space-around;
@@ -26,6 +33,9 @@
 .nav-list a:hover{
     color: skyblue;
 }
+.active{
+    color: rgb(4, 100, 138) !important;
+}
 .nav-item{
     margin-left: 40px;
 }
@@ -39,6 +49,12 @@
     height: 89vh;
     width: 15%;
     background-color: rgb(114, 199, 233);
+}
+.side-menu-list{
+    padding: 40px 30px;
+}
+.side-menu-item{
+    padding: 20px 0px;
 }
 .information{
     height: 91.5vh;
