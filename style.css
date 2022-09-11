@@ -13,9 +13,10 @@ body{
 .nav-container{
     display: flex;
     justify-content: space-around;
-    background-image: linear-gradient(blur);
+    background-color: rgb(218, 218, 218);
     position: fixed;
     top: 0;
+    width: 100%;
     z-index: 50;
 }
 .nav-logo{
@@ -48,13 +49,20 @@ body{
     margin-top: 20px;
     height: 89vh;
     width: 15%;
-    background-color: rgb(114, 199, 233);
+    background-color: rgb(106, 196, 231);
 }
 .side-menu-list{
     padding: 40px 30px;
 }
 .side-menu-item{
     padding: 20px 0px;
+}
+.side-menu-item a{
+    text-decoration: none;
+    color: black;
+}
+.side-menu-item a:hover{
+    color: rgb(10, 127, 173);
 }
 .information{
     height: 91.5vh;
@@ -78,4 +86,30 @@ body{
 .images{
     width: 50%;
     margin-left: 50px;
+}
+.context{
+    padding-top: 90px;
+}
+.about{
+    padding: 40px;
+}
+.heading{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.about p{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+}
+.about ol{
+    padding-left: 125px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
 }
