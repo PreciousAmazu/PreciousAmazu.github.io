@@ -112,4 +112,46 @@ body{
     justify-content: space-around;
     align-items: center;
     padding-bottom: 20px;
+    
+}
+.info .one{
+    width: 25%;
+}
+.nbsa-data{
+    padding-top: 120px;
+    text-align: center;
+}
+.nbsa-titles{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.nbsa-bar,
+.nbsa-percentage{
+  height: 10px;
+  border-radius: .25rem;
+}
+.nbsa-bar{
+    width: 55%;
+    background-color: white;
+    margin-left: 365px;
+}
+  
+.nbsa-percentage{
+    display: block;
+    background-color: rgb(64, 186, 235);
+    width: 60%;
+}
+table{
+    margin: 40px auto;
+}
+th,td{
+    padding: 20px;
+}
+.faq{
+    background-color: lightgrey;
+    margin: 150px 150px;
+    width: 80%;
+    padding: 100px 100px;
 }
