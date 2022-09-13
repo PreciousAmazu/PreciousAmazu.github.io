@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body{
+    font-family:  sans-serif;
+    background-color: azure;
+}
+.heading{
+    margin-top: 50px;
+    text-align: center;
+}
+.content{
+    background-color: lightgray;
+    width: 70%;
+    height: 90vh;
+    margin: 50px auto;
+    text-align: center;
+    padding: 60px 70px;
+}
+.content div{
+    margin: 0 auto 30px auto;
+    width: 80%;
+}
+.content div h1{
+    padding: 20px;
+}
