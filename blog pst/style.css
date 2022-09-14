@@ -34,3 +34,13 @@ body{
     line-height: 30px;
     padding-right: 20px;
 }
+.info{
+    background-color: lightgray;
+    margin: 50px auto;
+    width: 80%;
+    height: 100vh;
+}
+.info p{
+    padding-top: 20px;
+    text-align: center;
+}
