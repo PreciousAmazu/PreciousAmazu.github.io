@@ -20,7 +20,7 @@ body{
     height: 90vh;
     margin: 50px auto;
     text-align: center;
-    padding: 60px 0 50px 70px;
+    padding: 60px 30px 50px 70px;
 }
 .content div{
     margin: 0 auto 30px auto;
@@ -28,3 +28,9 @@ body{
 }
 .content div h1{
     padding: 20px;
+}
+.feedback{
+    text-align: left;
+    line-height: 30px;
+    padding-right: 20px;
+}
