@@ -10,6 +10,17 @@ body{
     font-family:  sans-serif;
     background-color:  rgb(91, 190, 230);
 }
+button {
+    margin: 50px 0px 0px 100px;
+    padding: 20px 50px;
+    background-color: lightgray;
+}
+button a {
+    color: black;
+    font-size: large;
+    text-decoration: none;
+
+}
 .heading{
     margin-top: 50px;
     text-align: center;
