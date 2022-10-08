@@ -47,12 +47,27 @@ button a {
     padding-right: 20px;
 }
 .info{
-    background-color: lightgray;
     margin: 50px auto;
     width: 80%;
-    height: 100vh;
+    height: 110vh;
+    text-align: center;
 }
-.info p{
+.info p,h1{
     padding-top: 20px;
     text-align: center;
+}
+.headers{
+    padding-top: 20px;
+}
+.context{
+    border-radius: 10%;
+    background: lightgray;
+    margin: 20px;
+    padding: 20px;
+}
+.details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+    line-height: 20px;
 }
