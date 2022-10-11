@@ -25,6 +25,7 @@ button a {
     margin-top: 50px;
     text-align: center;
 }
+/* The content is used to style the background for almost all the blog page content*/
 .content{
     background-color: lightgray;
     width: 70%;
